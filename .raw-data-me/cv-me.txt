@@ -1,0 +1,52 @@
+TENTANG SAYA
+Lulusan S1 Teknologi Informasi bersertifikasi BNSP (Analis Program & Network Administrator) dengan
+pengalaman praktis dalam pengembangan web full-stack. Memiliki rekam jejak dalam merancang Sistem
+PPDB Online terintegrasi Payment Gateway, serta pengalaman operasional selama hampir 4 tahun yang
+membentuk pemahaman kuat tentang logika bisnis, efisiensi alur kerja, dan akurasi data. Berfokus pada
+pengembangan perangkat lunak yang solutif dan berpusat pada pemecahan masalah pengguna.
+MUHAMMAD ROHMAN SYAH
+Alamat:
+No Telpon:
+Email:
+Website:
+Jl. Swakarsa III, Pondok Kelapa, Duren Sawit, Jakarta Tmur
+08997785724
+syahr642@gmail.com
+https://rohmansyah23.github.io/Crocode/
+Pemrograman & Framework: PHP, JavaScript, Python, Golang, Java, CodeIgniter 3, Laravel, Node.js.
+Web & Database: HTML, CSS, Firebase Realtime Database & Firestore, SQL.
+Keahlian Teknis IT: Analisis Kebutuhan Sistem, Testing & Debugging, Konfigurasi Jaringan
+(Router/Switch), Manajemen Bandwidth.
+Keahlian Operasional: Manajemen Inventaris, Analisis Data Stok (Akurasi 100%), Problem Solving.
+PENGALAMAN KERJA
+Fullstack Web Developer (Freelance) Jan 2024 – Sekarang
+Mengelola siklus hidup pengembangan perangkat lunak (SDLC) secara end-to-end, mulai dari
+perancangan arsitektur sistem, penulisan kode, hingga deployment dan pemeliharaan.
+Melakukan kustomisasi dan modifikasi fitur aplikasi sesuai dengan kebutuhan bisnis klien untuk
+meningkatkan nilai fungsionalitas produk.
+IT Support & Teaching Assistant (Magang) Okt 2024 – Des 2024
+Membangun dan mengimplementasikan Sistem PPDB Online yang terintegrasi dengan Payment
+Gateway, secara signifikan meningkatkan efisiensi proses pendaftaran siswa baru.
+Mengembangkan Website Akademik fungsional yang mengotomatisasi proses input data siswa,
+memangkas waktu administrasi manual.
+Memelihara infrastruktur TI dan melakukan troubleshooting jaringan laboratorium untuk memastikan
+kelancaran kegiatan operasional sehari-hari.
+Admin Operasional & Stockist - Agen Milagros Pondok Kelapa Feb 2021 – Des 2024
+Menyusun laporan penjualan harian & bulanan dengan tingkat akurasi data stok 100%.
+Mengelola inventaris dan sirkulasi logistik dengan volume hingga 60 dus/bulan, serta memproses
+lebih dari 20 pesanan pelanggan per minggu secara efisien.
+Melakukan rekonsiliasi keuangan dan administrasi pembayaran tunai maupun transfer bank dengan
+ketelitian tinggi.
+PENDIDIKAN
+Universitas Bina Sarana Informatika - Jakarta
+S1 Teknologi Informasi (Fakultas Teknik dan Informatika)
+Agu 2021 – Des 2025
+Skripsi: Pengembangan Sistem Informasi PPDB Terpadu Berbasis Web pada SMKS Jakarta 1 Pondok
+Kopi Jakarta Timur.
+Publikasi Jurnal: "Developing an Efficient PPDB System Integrating Payment Gateway and Secure
+Exams"
+.
+SERTIFIKASI PROFESIONAL
+Network Administrator Madya – BNSP (2025 – 2028)
+Analis Program – BNSP (2024 – 2027)
+Rekayasa Perangkat Lunak (KKNI Level II) – BNSP (2021 – 2024)

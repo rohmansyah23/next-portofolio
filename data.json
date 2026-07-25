@@ -1,69 +1,238 @@
 {
   "main": {
-    "name": "Jhon Doe",
-    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "name": "Muhammad Rohman Syah",
+    "shortDesc": "Fullstack Web Developer bersertifikasi BNSP dengan pengalaman praktis dalam pengembangan web end-to-end. Berfokus pada solusi yang solutif dan berpusat pada pemecahan masalah pengguna.",
     "titles": [
-      "Frontend Development",
-      "Backend Development",
-      "App Development"
+      "Fullstack Web Developer",
+      "PHP & CodeIgniter",
+      "Flutter Development",
+      "Go Backend"
     ],
-    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "heroImage": "/profile-me.png",
     "techStackImages": [
-      "https://img.icons8.com/color/144/000000/material-ui.png",
-      "https://img.icons8.com/color/144/000000/html-5--v1.png",
-      "https://img.icons8.com/color/144/000000/redux.png",
-      "https://img.icons8.com/color/144/000000/chakra-ui.png"
+      "https://img.icons8.com/color/144/000000/php.png",
+      "https://img.icons8.com/color/144/000000/flutter.png",
+      "https://img.icons8.com/color/144/000000/firebase.png",
+      "https://img.icons8.com/color/144/000000/javascript.png"
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
-    "aboutImageCaption": "< I build stuff 🚀/>",
-    "title": "Full Stack Developer",
-    "about": "I am a Full-Stack developer based in Pune, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "aboutImage": "/profile-me.png",
+    "aboutImageCaption": "< Fullstack Developer />",
+    "title": "Fullstack Web Developer | BNSP Certified",
+    "about": "Lulusan S1 Teknologi Informasi bersertifikasi BNSP (Analis Program & Network Administrator) dengan pengalaman praktis dalam pengembangan web full-stack. Memiliki rekam jejak dalam merancang Sistem PPDB Online terintegrasi Payment Gateway, serta pengalaman operasional selama hampir 4 tahun yang membentuk pemahaman kuat tentang logika bisnis, efisiensi alur kerja, dan akurasi data. Berfokus pada pengembangan perangkat lunak yang solutif dan berpusat pada pemecahan masalah pengguna.",
     "callUrl": "",
     "resumeUrl": ""
   },
   "socials": [
     {
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
-    },
-    {
+      "name": "GitHub",
       "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
+      "link": "https://github.com/rohmansyah23"
     },
     {
+      "name": "Instagram",
       "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
+      "link": "https://www.instagram.com/roman.syahr/"
     },
     {
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/in/muhammad-rohman-syah-13a0873a8/"
+    },
+    {
+      "name": "YouTube",
+      "icon": "FaYoutube",
+      "link": "https://www.youtube.com/@m.rohmansyah203"
     }
   ],
   "skills": [
     {
-      "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-      "category": "Frontend"
-    },
-    {
-      "name": "Firebase",
-      "image": "https://img.icons8.com/color/144/null/firebase.png",
+      "name": "PHP",
+      "image": "https://img.icons8.com/color/144/000000/php.png",
       "category": "Backend"
     },
     {
-      "name": "GitHub",
-      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
-      "category": "Tools"
+      "name": "JavaScript",
+      "image": "https://img.icons8.com/color/144/000000/javascript.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "HTML5",
+      "image": "https://img.icons8.com/color/144/000000/html-5--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS3",
+      "image": "https://img.icons8.com/color/144/000000/css3.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "https://img.icons8.com/color/144/000000/bootstrap.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "CodeIgniter",
+      "image": "https://img.icons8.com/ios-filled/150/000000/codeigniter.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Laravel",
+      "image": "https://img.icons8.com/color/144/000000/laravel.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Node.js",
+      "image": "https://img.icons8.com/color/144/000000/nodejs.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Go",
+      "image": "https://img.icons8.com/color/144/000000/golang.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Python",
+      "image": "https://img.icons8.com/color/144/000000/python.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Flutter",
+      "image": "https://img.icons8.com/color/144/000000/flutter.png",
+      "category": "Mobile"
+    },
+    {
+      "name": "Dart",
+      "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "category": "Mobile"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://img.icons8.com/color/144/000000/firebase.png",
+      "category": "Database & Tools"
+    },
+    {
+      "name": "SQL",
+      "image": "https://img.icons8.com/color/144/000000/sql.png",
+      "category": "Database & Tools"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/color/144/000000/git.png",
+      "category": "Database & Tools"
+    },
+    {
+      "name": "Supabase",
+      "image": "https://img.icons8.com/color/144/000000/supabase.png",
+      "category": "Database & Tools"
     }
   ],
   "projects": [
     {
-      "name": "Project Title",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "CroCode Marketplace",
+      "techstack": "PHP, CodeIgniter 3, Bootstrap",
+      "category": "PHP",
+      "image": "https://img.icons8.com/color/144/000000/php.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/Crocode",
+        "video": "",
+        "visit": "https://rohmansyah23.github.io/Crocode/"
+      }
+    },
+    {
+      "name": "AI Go - Warehouse Chatbot",
+      "techstack": "Go (Gin Gonic), Google Gemini API",
+      "category": "Go",
+      "image": "https://img.icons8.com/color/144/000000/golang.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/ai-go",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "PawsCare Portal",
+      "techstack": "CodeIgniter 3, PHP, MySQL",
+      "category": "PHP",
+      "image": "https://img.icons8.com/ios-filled/150/000000/codeigniter.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/portal-paswcare",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "QC Mobile App",
+      "techstack": "Flutter, Dart, Supabase",
+      "category": "Mobile",
+      "image": "https://img.icons8.com/color/144/000000/flutter.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/QC-Mobile-App",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Flutter Auto-Refresh Bot",
+      "techstack": "Flutter, Dart",
+      "category": "Mobile",
+      "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/flutter-auto-refresh-bot",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Red Line Guardian AI",
+      "techstack": "Python, Computer Vision, PID Control",
+      "category": "Python",
+      "image": "https://img.icons8.com/color/144/000000/python.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/red-line-guardian-ai",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Pustaka Booking UBSI",
+      "techstack": "CodeIgniter 3, PHP, MySQL",
+      "category": "PHP",
+      "image": "https://img.icons8.com/color/144/000000/sql.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/pustaka-booking-ubsi",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Eat Scroll",
+      "techstack": "Android, Kotlin",
+      "category": "Mobile",
+      "image": "https://img.icons8.com/color/144/000000/android-os.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/eat-scroll",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Taskbar Navigator",
+      "techstack": "Python",
+      "category": "Python",
+      "image": "https://img.icons8.com/color/144/000000/python.png",
+      "links": {
+        "code": "https://github.com/rohmansyah23/taskbar-navigator",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "Milagros Web",
+      "techstack": "PHP, MySQL",
+      "category": "PHP",
+      "image": "https://img.icons8.com/color/144/000000/php.png",
       "links": {
         "code": "",
         "video": "",
@@ -71,10 +240,10 @@
       }
     },
     {
-      "name": "Project Title",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "Catering Mama Akbar",
+      "techstack": "PHP, CodeIgniter 3",
+      "category": "PHP",
+      "image": "https://img.icons8.com/ios-filled/150/000000/codeigniter.png",
       "links": {
         "code": "",
         "video": "",
@@ -82,53 +251,60 @@
       }
     },
     {
-      "name": "Project Title",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "LAMP Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "Shress",
+      "techstack": "Kotlin, React",
+      "category": "Mobile",
+      "image": "https://img.icons8.com/color/144/000000/kotlin.png",
       "links": {
         "code": "",
         "video": "",
         "visit": ""
       }
-    }
-  ],
-  "educations": [
-    {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
-    },
-    {
-      "institute": "XYZ College Of Engineering",
-      "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
-      "desc": [
-        "Pursuing IT Engineering course from ABC University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
-      ]
     }
   ],
   "experiences": [
     {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
+      "company": "Fullstack Web Developer (Freelance)",
+      "position": "Freelance",
+      "startDate": "Jan 2024",
+      "endDate": "Sekarang",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Mengelola siklus hidup pengembangan perangkat lunak (SDLC) secara end-to-end, mulai dari perancangan arsitektur sistem, penulisan kode, hingga deployment dan pemeliharaan",
+        "Melakukan kustomisasi dan modifikasi fitur aplikasi sesuai dengan kebutuhan bisnis klien untuk meningkatkan nilai fungsionalitas produk"
       ]
     },
     {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
+      "company": "IT Support & Teaching Assistant",
+      "position": "Magang",
+      "startDate": "Okt 2024",
+      "endDate": "Des 2024",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Membangun dan mengimplementasikan Sistem PPDB Online yang terintegrasi dengan Payment Gateway",
+        "Mengembangkan Website Akademik fungsional yang mengotomatisasi proses input data siswa",
+        "Memelihara infrastruktur TI dan melakukan troubleshooting jaringan laboratorium"
+      ]
+    },
+    {
+      "company": "Admin Operasional & Stockist",
+      "position": "Agen Milagros Pondok Kelapa",
+      "startDate": "Feb 2021",
+      "endDate": "Des 2024",
+      "desc": [
+        "Menyusun laporan penjualan harian & bulanan dengan tingkat akurasi data stok 100%",
+        "Mengelola inventaris dan sirkulasi logistik dengan volume hingga 60 dus/bulan",
+        "Memproses lebih dari 20 pesanan pelanggan per minggu secara efisien"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "institute": "Universitas Bina Sarana Informatika - Jakarta",
+      "degree": "S1 Teknologi Informasi (Fakultas Teknik dan Informatika)",
+      "startDate": "Agu 2021",
+      "endDate": "Des 2025",
+      "desc": [
+        "Skripsi: Pengembangan Sistem Informasi PPDB Terpadu Berbasis Web pada SMKS Jakarta 1 Pondok Kopi Jakarta Timur",
+        "Publikasi Jurnal: Developing an Efficient PPDB System Integrating Payment Gateway and Secure Exams"
       ]
     }
   ]

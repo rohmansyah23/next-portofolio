@@ -2,23 +2,22 @@ export default function Head() {
   return (
     <>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="I'm Jigar Sable, full-stack developer based in Pune, India. My journey in web development began during my first year of college." />
-      <meta name="keywords" content="jigar sable, portfolio, jigar, full stack dev, nextjs portfolio, portfolio design, portfolio website, personal portfolio" />
-      <meta property="og:site_name" content="Jigar Sable's Portfolio" />
-      <meta property="og:title" content="Portfolio | Jigar Sable - Full Stack Developer" />
-      <meta property="og:description"
-        content="I'm Jigar Sable, full-stack developer based in Pune, India. My journey in web development began during my first year of college." />
-      <meta property="og:url" content="https://jigarsable.vercel.app" />
-      <meta property="og:image" content="https://jigarsable.vercel.app/portfolio-fork.png" />
-      <link rel="canonical" href="https://jigarsable.vercel.app" />
-      <meta name="author" content="Jigar Sable" />
+      <meta name="description" content="Portfolio Muhammad Rohman Syah - Fullstack Web Developer bersertifikasi BNSP dengan pengalaman dalam pengembangan web end-to-end." />
+      <meta name="keywords" content="muhammad rohman syah, portfolio, fullstack developer, php, codeigniter, flutter, golang, jakarta" />
+      <meta property="og:site_name" content="Muhammad Rohman Syah's Portfolio" />
+      <meta property="og:title" content="Portfolio | Muhammad Rohman Syah - Fullstack Developer" />
+      <meta property="og:description" content="Fullstack Web Developer bersertifikasi BNSP dengan pengalaman dalam pengembangan web end-to-end." />
+      <meta property="og:url" content="https://YOUR-VERCEL-APP.vercel.app" />
+      <meta property="og:image" content="/profile-me.png" />
+      <link rel="canonical" href="https://YOUR-VERCEL-APP.vercel.app" />
+      <meta name="author" content="Muhammad Rohman Syah" />
       <meta name="language" content="English" />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="https://jigarsable.vercel.app" />
-      <meta name="application-name" content="Portfolio | Jigar Sable - Full Stack Developer" />
-      <meta name="apple-mobile-web-app-title" content="Portfolio | Jigar Sable - Full Stack Developer" />
+      <meta name="twitter:site" content="https://YOUR-VERCEL-APP.vercel.app" />
+      <meta name="application-name" content="Portfolio | Muhammad Rohman Syah" />
+      <meta name="apple-mobile-web-app-title" content="Portfolio | Muhammad Rohman Syah" />
       <link rel="icon" href="/favicon.ico" />
-      <title>Portfolio | Jigar Sable - Full Stack Developer</title>
+      <title>Portfolio | Muhammad Rohman Syah - Fullstack Developer</title>
     </>
   )
 }
