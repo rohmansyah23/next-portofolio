@@ -62,7 +62,7 @@ const Hero = ({ mainData }: HeroProps) => {
                         {shortDesc}
                     </p>
 
-                    <div className="flex items-center gap-3">
+                    <div className="flex flex-col min-[365px]:flex-row items-start min-[365px]:items-center gap-3">
                         <ScrollLink
                             className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
                             to={'about'}
