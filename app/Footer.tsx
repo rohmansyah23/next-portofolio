@@ -2,9 +2,8 @@ import { social } from "@/types/main";
 import Image from "next/image";
 import Link from "next/link";
 import * as Fa from 'react-icons/fa';
-import { IconType } from 'react-icons';
 
-const iconMap: Record<string, IconType> = Fa;
+const iconMap: Record<string, React.ComponentType> = Fa;
 
 export default function Footer({ socials, name }: { socials: social[], name: string }) {
 
