@@ -45,6 +45,11 @@
       "name": "YouTube",
       "icon": "FaYoutube",
       "link": "https://www.youtube.com/@m.rohmansyah203"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "FaWhatsapp",
+      "link": "https://wa.me/628997785724"
     }
   ],
   "skills": [
