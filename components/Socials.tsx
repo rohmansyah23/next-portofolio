@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import * as Fa from 'react-icons/fa';
+import { IconType } from 'react-icons';
 import { social } from '@/types/main';
 
-const iconMap: Record<string, React.ComponentType<any>> = Fa;
+const iconMap: Record<string, IconType> = Fa;
 
 const Socials = ({ socials }: { socials: social[] }) => {
     return (
