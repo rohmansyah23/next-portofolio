@@ -74,14 +74,6 @@ const Hero = ({ mainData }: HeroProps) => {
                             About Me
                             <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
                         </ScrollLink>
-                        <Link
-                            href="https://wa.me/628997785724"
-                            target="_blank"
-                            className="text-violet-600 flex items-center gap-1 hover:bg-violet-50 hover:dark:bg-violet-900/10 py-2 px-4 transition-colors rounded-md"
-                        >
-                            <FaWhatsapp size={16} />
-                            Chat on WhatsApp
-                        </Link>
                     </div>
                 </div>
 
