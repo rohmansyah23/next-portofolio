@@ -24,9 +24,9 @@ const Project = ({ name, image, category, techstack, desc, links }: project) => 
             variants={cardVariants}
             initial='hidden'
             animate={inView ? 'visible' : 'hidden'}
-            className="flex flex-col gap-2 bg-white dark:bg-grey-800 rounded-lg p-4">
+            className="group flex flex-col gap-2 bg-white dark:bg-grey-800 rounded-lg p-4">
 
-            <div className="relative group rounded-lg bg-violet-50">
+            <div className="relative rounded-lg bg-violet-50">
                 <Image alt={name} width={1000} height={1000} className="max-w-full h-48 max-h-full object-cover object-top rounded-lg" src={image} />
                 {(links.visit.trim() || links.code.trim() || links.video.trim()) &&
                     <div className="absolute top-0 scale-x-0 group-hover:scale-100 transition-transform origin-left duration-200 ease-linear bg-gray-800 bg-opacity-60 w-full h-full rounded-lg flex items-center gap-4 justify-center">
@@ -50,34 +50,9 @@ const Project = ({ name, image, category, techstack, desc, links }: project) => 
             </div>
 
             <div className="my-2 flex flex-col gap-3">
-                <h3 className="text-xl font-medium">
-                    {links.visit.trim() ? (
-                        <Link href={links.visit} target="_blank" className="hover:text-violet-600 transition-colors">
-                            {name}
-                        </Link>
-                    ) : name}
-                </h3>
-                {desc && <p className="text-sm text-gray-500 dark:text-gray-400 line-clamp-2">{desc}</p>}
+                <h3 className="text-xl font-medium">{name}</h3>
+                {desc && <p className="text-sm text-gray-500 dark:text-gray-400 line-clamp-2 cursor-pointer">{desc}</p>}
                 <p className="text-sm text-gray-400"> <span className="font-medium">Tech Stack:</span> {techstack}</p>
-                {(links.visit.trim() || links.code.trim() || links.video.trim()) &&
-                    <div className="flex items-center gap-2 mt-1">
-                        {links.visit.trim() &&
-                            <Link href={links.visit} target="_blank" className="text-xs text-violet-600 hover:text-violet-700 flex items-center gap-1 transition-colors">
-                                <BiLinkExternal size={12} /> Visit
-                            </Link>
-                        }
-                        {links.code.trim() &&
-                            <Link href={links.code} target="_blank" className="text-xs text-violet-600 hover:text-violet-700 flex items-center gap-1 transition-colors">
-                                <FaGithub size={12} /> Code
-                            </Link>
-                        }
-                        {links.video.trim() &&
-                            <Link href={links.video} target="_blank" className="text-xs text-violet-600 hover:text-violet-700 flex items-center gap-1 transition-colors">
-                                <FaVideo size={12} /> Video
-                            </Link>
-                        }
-                    </div>
-                }
             </div>
 
         </motion.div>
