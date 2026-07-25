@@ -77,7 +77,7 @@ const Hero = ({ mainData }: HeroProps) => {
                         <Link
                             href="https://wa.me/628997785724"
                             target="_blank"
-                            className="w-fit text-sm md:text-base py-2 px-4 flex items-center gap-1.5 rounded-md bg-green-600 hover:bg-green-700 transition-colors text-white"
+                            className="text-violet-600 flex items-center gap-1 hover:bg-violet-50 hover:dark:bg-violet-900/10 py-2 px-4 transition-colors rounded-md"
                         >
                             <FaWhatsapp size={16} />
                             Chat on WhatsApp
