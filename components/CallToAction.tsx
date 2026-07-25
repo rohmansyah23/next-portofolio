@@ -12,12 +12,10 @@ const CallToAction = () => {
           <Link href="https://www.linkedin.com/in/muhammad-rohman-syah-13a0873a8/" target="_blank" className="group py-3 px-6 bg-white text-violet-700 font-semibold rounded-xl w-fit flex items-center gap-2.5 hover:bg-violet-50 hover:shadow-2xl hover:shadow-white/20 transition-all duration-300">
             <FaLinkedin size={20} className="group-hover:scale-110 transition-transform duration-300" />
             Contact on LinkedIn
-            <span className="ml-1 group-hover:translate-x-1 transition-transform duration-300">&rarr;</span>
           </Link>
           <Link href="https://wa.me/628997785724" target="_blank" className="group py-3 px-6 bg-emerald-600 text-white font-semibold rounded-xl w-fit flex items-center gap-2.5 hover:bg-emerald-700 hover:shadow-2xl hover:shadow-emerald-600/20 transition-all duration-300">
             <FaWhatsapp size={20} className="group-hover:scale-110 transition-transform duration-300" />
             Chat on WhatsApp
-            <span className="ml-1 group-hover:translate-x-1 transition-transform duration-300">&rarr;</span>
           </Link>
         </div>
       </div>
