@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import * as Fa from 'react-icons/fa';
 
-const iconMap: Record<string, React.ComponentType> = Fa;
+const iconMap: Record<string, React.ComponentType<any>> = Fa;
 
 export default function Footer({ socials, name }: { socials: social[], name: string }) {
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import * as Fa from 'react-icons/fa';
 import { social } from '@/types/main';
 
-const iconMap: Record<string, React.ComponentType> = Fa;
+const iconMap: Record<string, React.ComponentType<any>> = Fa;
 
 const Socials = ({ socials }: { socials: social[] }) => {
     return (
