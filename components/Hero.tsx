@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { Link as ScrollLink } from 'react-scroll'
 import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from 'react-icons/io';
+import { FaWhatsapp } from 'react-icons/fa';
+import Link from 'next/link';
 import wavingHand from '@/public/waving-hand.gif';
 import { main } from '@/types/main';
 
@@ -60,17 +62,27 @@ const Hero = ({ mainData }: HeroProps) => {
                         {shortDesc}
                     </p>
 
-                    <ScrollLink
-                        className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
-                        to={'about'}
-                        offset={-60}
-                        smooth={true}
-                        duration={500}
-                        isDynamic={true}
-                    >
-                        About Me
-                        <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
-                    </ScrollLink>
+                    <div className="flex items-center gap-3">
+                        <ScrollLink
+                            className="w-fit text-sm md:text-base py-2 px-4 cursor-pointer flex items-center gap-1 rounded-md bg-violet-600 hover:bg-violet-700 dark:bg-violet-700 hover:dark:bg-violet-800 transition-colors group text-white"
+                            to={'about'}
+                            offset={-60}
+                            smooth={true}
+                            duration={500}
+                            isDynamic={true}
+                        >
+                            About Me
+                            <IoIosArrowForward className='group-hover:translate-x-1 transition-transform' />
+                        </ScrollLink>
+                        <Link
+                            href="https://wa.me/628997785724"
+                            target="_blank"
+                            className="w-fit text-sm md:text-base py-2 px-4 flex items-center gap-1.5 rounded-md bg-green-600 hover:bg-green-700 transition-colors text-white"
+                        >
+                            <FaWhatsapp size={16} />
+                            Chat on WhatsApp
+                        </Link>
+                    </div>
                 </div>
 
                 <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
