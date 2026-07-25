@@ -1,26 +1,27 @@
 {
   "main": {
     "name": "Muhammad Rohman Syah",
-    "shortDesc": "Fullstack Web Developer bersertifikasi BNSP dengan pengalaman praktis dalam pengembangan web end-to-end. Berfokus pada solusi yang solutif dan berpusat pada pemecahan masalah pengguna.",
+    "logo": "SyahrWorks",
+    "shortDesc": "BNSP-certified Fullstack Developer building web & mobile applications with Next.js, Flutter, PHP & Go. Focused on clean code and solving real user problems.",
     "titles": [
       "Fullstack Web Developer",
-      "PHP & CodeIgniter",
+      "Next.js & TypeScript",
       "Flutter Development",
-      "Go Backend"
+      "Go & Python Backend"
     ],
     "heroImage": "/profile-me.png",
     "techStackImages": [
-      "https://img.icons8.com/color/144/000000/php.png",
       "https://img.icons8.com/color/144/000000/flutter.png",
-      "https://img.icons8.com/color/144/000000/firebase.png",
-      "https://img.icons8.com/color/144/000000/javascript.png"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg",
+      "https://img.icons8.com/color/144/000000/python.png"
     ]
   },
   "about": {
-    "aboutImage": "/profile-me.png",
+    "aboutImage": "/about-me.png",
     "aboutImageCaption": "< Fullstack Developer />",
     "title": "Fullstack Web Developer | BNSP Certified",
-    "about": "Lulusan S1 Teknologi Informasi bersertifikasi BNSP (Analis Program & Network Administrator) dengan pengalaman praktis dalam pengembangan web full-stack. Memiliki rekam jejak dalam merancang Sistem PPDB Online terintegrasi Payment Gateway, serta pengalaman operasional selama hampir 4 tahun yang membentuk pemahaman kuat tentang logika bisnis, efisiensi alur kerja, dan akurasi data. Berfokus pada pengembangan perangkat lunak yang solutif dan berpusat pada pemecahan masalah pengguna.",
+    "about": "Fullstack Developer with BNSP certification (Program Analyst & Network Administrator) and hands-on experience building web & mobile applications. Built 12+ projects spanning Next.js dashboards, Flutter mobile apps, CodeIgniter systems, and Go backends. Currently freelancing while completing Bachelor of IT at Universitas Bina Sarana Informatika, with a published thesis on integrated PPDB systems with payment gateway integration.",
     "callUrl": "",
     "resumeUrl": ""
   },
@@ -48,16 +49,6 @@
   ],
   "skills": [
     {
-      "name": "PHP",
-      "image": "https://img.icons8.com/color/144/000000/php.png",
-      "category": "Backend"
-    },
-    {
-      "name": "JavaScript",
-      "image": "https://img.icons8.com/color/144/000000/javascript.png",
-      "category": "Frontend"
-    },
-    {
       "name": "HTML5",
       "image": "https://img.icons8.com/color/144/000000/html-5--v1.png",
       "category": "Frontend"
@@ -68,23 +59,38 @@
       "category": "Frontend"
     },
     {
+      "name": "JavaScript",
+      "image": "https://img.icons8.com/color/144/000000/javascript.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "image": "https://img.icons8.com/color/144/000000/typescript.png",
+      "category": "Frontend"
+    },
+    {
       "name": "Bootstrap",
       "image": "https://img.icons8.com/color/144/000000/bootstrap.png",
       "category": "Frontend"
     },
     {
+      "name": "Tailwind CSS",
+      "image": "https://img.icons8.com/color/144/000000/tailwindcss.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "React JS",
+      "image": "https://img.icons8.com/color/144/000000/react-native.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "PHP",
+      "image": "https://img.icons8.com/color/144/000000/php.png",
+      "category": "Backend"
+    },
+    {
       "name": "CodeIgniter",
-      "image": "https://img.icons8.com/ios-filled/150/000000/codeigniter.png",
-      "category": "Backend"
-    },
-    {
-      "name": "Laravel",
-      "image": "https://img.icons8.com/color/144/000000/laravel.png",
-      "category": "Backend"
-    },
-    {
-      "name": "Node.js",
-      "image": "https://img.icons8.com/color/144/000000/nodejs.png",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg",
       "category": "Backend"
     },
     {
@@ -98,42 +104,88 @@
       "category": "Backend"
     },
     {
+      "name": "Node.js",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "category": "Backend"
+    },
+    {
+      "name": "Next.js",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      "category": "Frontend"
+    },
+    {
       "name": "Flutter",
       "image": "https://img.icons8.com/color/144/000000/flutter.png",
-      "category": "Mobile"
+      "category": "Others"
     },
     {
       "name": "Dart",
       "image": "https://img.icons8.com/color/144/000000/dart.png",
-      "category": "Mobile"
+      "category": "Others"
     },
     {
-      "name": "Firebase",
-      "image": "https://img.icons8.com/color/144/000000/firebase.png",
-      "category": "Database & Tools"
+      "name": "Kotlin",
+      "image": "https://img.icons8.com/color/144/000000/kotlin.png",
+      "category": "Others"
     },
     {
       "name": "SQL",
       "image": "https://img.icons8.com/color/144/000000/sql.png",
-      "category": "Database & Tools"
+      "category": "Others"
     },
     {
-      "name": "Git",
-      "image": "https://img.icons8.com/color/144/000000/git.png",
-      "category": "Database & Tools"
+      "name": "PostgreSQL",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      "category": "Others"
     },
     {
       "name": "Supabase",
       "image": "https://img.icons8.com/color/144/000000/supabase.png",
-      "category": "Database & Tools"
+      "category": "Others"
+    },
+    {
+      "name": "Prisma",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
+      "category": "Others"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/color/144/000000/git.png",
+      "category": "Others"
+    },
+    {
+      "name": "MySQL",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+      "category": "Others"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://img.icons8.com/color/144/000000/firebase.png",
+      "category": "Others"
+    },
+    {
+      "name": "Vercel",
+      "image": "https://img.icons8.com/color/144/000000/vercel.png",
+      "category": "Others"
+    },
+    {
+      "name": "GitHub",
+      "image": "https://img.icons8.com/color/144/000000/github.png",
+      "category": "Others"
+    },
+    {
+      "name": "Laravel",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+      "category": "Others"
     }
   ],
   "projects": [
     {
       "name": "CroCode Marketplace",
-      "techstack": "PHP, CodeIgniter 3, Bootstrap",
-      "category": "PHP",
-      "image": "https://img.icons8.com/color/144/000000/php.png",
+      "techstack": "HTML5, CSS3, JavaScript, Bootstrap 5, AOS, GLightbox",
+      "category": "HTML/CSS",
+      "image": "/projects/crocode.png",
+      "desc": "A modern digital platform for selling high-quality website and application source code. Serves as both a product catalog and primary transaction gateway.",
       "links": {
         "code": "https://github.com/rohmansyah23/Crocode",
         "video": "",
@@ -142,9 +194,10 @@
     },
     {
       "name": "AI Go - Warehouse Chatbot",
-      "techstack": "Go (Gin Gonic), Google Gemini API",
+      "techstack": "Go, Gin Gonic, MySQL, GORM, Google Gemini API, Tailwind CSS, jQuery",
       "category": "Go",
       "image": "https://img.icons8.com/color/144/000000/golang.png",
+      "desc": "Warehouse assistant chatbot built with Go (Gin Gonic) and integrated with Google Gemini API. Two modes: rule-based (Chatms) and AI-powered (Chatga) with Function Calling.",
       "links": {
         "code": "https://github.com/rohmansyah23/ai-go",
         "video": "",
@@ -153,9 +206,10 @@
     },
     {
       "name": "PawsCare Portal",
-      "techstack": "CodeIgniter 3, PHP, MySQL",
+      "techstack": "CodeIgniter 3, Bootstrap 4, MySQL, Ion Auth, jQuery DataTables, SweetAlert2",
       "category": "PHP",
-      "image": "https://img.icons8.com/ios-filled/150/000000/codeigniter.png",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg",
+      "desc": "Pet Health Portal - a health information portal for pets and dogs featuring admin CMS, gallery, and search functionality. Built with CodeIgniter 3 and Ion Auth.",
       "links": {
         "code": "https://github.com/rohmansyah23/portal-paswcare",
         "video": "",
@@ -164,9 +218,10 @@
     },
     {
       "name": "QC Mobile App",
-      "techstack": "Flutter, Dart, Supabase",
+      "techstack": "Flutter, Dart, Riverpod, Supabase",
       "category": "Mobile",
       "image": "https://img.icons8.com/color/144/000000/flutter.png",
+      "desc": "O&C Financial - a full-stack personal finance tracking app for couples. Flat-minimalist Scandinavian-style UI with real-time Supabase integration and Riverpod state management.",
       "links": {
         "code": "https://github.com/rohmansyah23/QC-Mobile-App",
         "video": "",
@@ -175,9 +230,10 @@
     },
     {
       "name": "Flutter Auto-Refresh Bot",
-      "techstack": "Flutter, Dart",
+      "techstack": "Flutter, Dart, flutter_inappwebview",
       "category": "Mobile",
       "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "desc": "A mini browser app built with Flutter featuring a Floating Menu UI. Equipped with Cloudflare Anti-Bot bypass, Multi-Popup Auth, Desktop Mode, and dynamic-scale zoom using flutter_inappwebview.",
       "links": {
         "code": "https://github.com/rohmansyah23/flutter-auto-refresh-bot",
         "video": "",
@@ -186,9 +242,10 @@
     },
     {
       "name": "Red Line Guardian AI",
-      "techstack": "Python, Computer Vision, PID Control",
+      "techstack": "Python, Pygame, OpenCV, MSS, PID Control, Pynput, Tkinter",
       "category": "Python",
       "image": "https://img.icons8.com/color/144/000000/python.png",
+      "desc": "A complete ecosystem consisting of a high-reflex reaction game (Pygame) and an advanced Computer Vision Agent (OpenCV + PID Control) designed to simulate professional-level human gameplay.",
       "links": {
         "code": "https://github.com/rohmansyah23/red-line-guardian-ai",
         "video": "",
@@ -197,9 +254,10 @@
     },
     {
       "name": "Pustaka Booking UBSI",
-      "techstack": "CodeIgniter 3, PHP, MySQL",
+      "techstack": "PHP, CodeIgniter 3, MySQL",
       "category": "PHP",
       "image": "https://img.icons8.com/color/144/000000/sql.png",
+      "desc": "Library Booking System - a web-based library book borrowing and returning application built with CodeIgniter 3, developed for a Web Programming course at BSI.",
       "links": {
         "code": "https://github.com/rohmansyah23/pustaka-booking-ubsi",
         "video": "",
@@ -208,9 +266,10 @@
     },
     {
       "name": "Eat Scroll",
-      "techstack": "Android, Kotlin",
+      "techstack": "Dart, Kotlin",
       "category": "Mobile",
-      "image": "https://img.icons8.com/color/144/000000/android-os.png",
+      "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "desc": "Hands-free auto scrolling for Android. Read Threads, comics, articles, Reddit, and more while eating, commuting, or using one hand.",
       "links": {
         "code": "https://github.com/rohmansyah23/eat-scroll",
         "video": "",
@@ -219,9 +278,10 @@
     },
     {
       "name": "Taskbar Navigator",
-      "techstack": "Python",
+      "techstack": "Python, Windows Automation",
       "category": "Python",
       "image": "https://img.icons8.com/color/144/000000/python.png",
+      "desc": "A lightweight and smart Windows automation tool that re-maps taskbar navigation to the Alt key. Ensures applications switch focus and pop to the foreground, solving the minimized window issue.",
       "links": {
         "code": "https://github.com/rohmansyah23/taskbar-navigator",
         "video": "",
@@ -230,31 +290,34 @@
     },
     {
       "name": "Milagros Web",
-      "techstack": "PHP, MySQL",
-      "category": "PHP",
-      "image": "https://img.icons8.com/color/144/000000/php.png",
+      "techstack": "Next.js 16, React 19, TypeScript, Tailwind CSS, Prisma, PostgreSQL, Zustand, Cloudinary, shadcn/ui",
+      "category": "TypeScript",
+      "image": "/projects/milagros-web.png",
+      "desc": "A modern website for an authorized Milagros agent featuring a landing page, interactive product catalog, and admin panel for stock and media management. Uses Prisma ORM and shadcn/ui.",
       "links": {
         "code": "",
         "video": "",
-        "visit": ""
+        "visit": "https://milagros-web.vercel.app/"
       }
     },
     {
       "name": "Catering Mama Akbar",
-      "techstack": "PHP, CodeIgniter 3",
-      "category": "PHP",
-      "image": "https://img.icons8.com/ios-filled/150/000000/codeigniter.png",
+      "techstack": "Next.js 16, React 19, TypeScript, Tailwind CSS, Neon Postgres, Cloudinary, shadcn/ui, JWT, bcryptjs",
+      "category": "TypeScript",
+      "image": "/projects/catering-mama-akbar.png",
+      "desc": "Modern Catering & Menu Management System for Catering Mama Akbar Pondok Kelapa. Integrates an interactive menu catalog with a JWT-authenticated back-office admin panel.",
       "links": {
         "code": "",
         "video": "",
-        "visit": ""
+        "visit": "https://catering-mama-akbar.vercel.app/"
       }
     },
     {
       "name": "Shress",
-      "techstack": "Kotlin, React",
+      "techstack": "Flutter, Dart, Supabase, PLpgSQL",
       "category": "Mobile",
-      "image": "https://img.icons8.com/color/144/000000/kotlin.png",
+      "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "desc": "Multi-tenant financial reporting for Indonesian SMEs. A production-grade, offline-aware Flutter application with real-time financial insights, transaction tracking, debt management, QRIS payments, and multi-business oversight.",
       "links": {
         "code": "",
         "video": "",
@@ -267,44 +330,55 @@
       "company": "Fullstack Web Developer (Freelance)",
       "position": "Freelance",
       "startDate": "Jan 2024",
-      "endDate": "Sekarang",
+      "endDate": "Present",
       "desc": [
-        "Mengelola siklus hidup pengembangan perangkat lunak (SDLC) secara end-to-end, mulai dari perancangan arsitektur sistem, penulisan kode, hingga deployment dan pemeliharaan",
-        "Melakukan kustomisasi dan modifikasi fitur aplikasi sesuai dengan kebutuhan bisnis klien untuk meningkatkan nilai fungsionalitas produk"
+        "Manage end-to-end software development lifecycle (SDLC), from system architecture design, coding, to deployment and maintenance",
+        "Customize and modify application features according to client business needs to enhance product functionality value"
       ]
     },
     {
       "company": "IT Support & Teaching Assistant",
-      "position": "Magang",
-      "startDate": "Okt 2024",
-      "endDate": "Des 2024",
+      "position": "Intern",
+      "startDate": "Oct 2024",
+      "endDate": "Dec 2024",
       "desc": [
-        "Membangun dan mengimplementasikan Sistem PPDB Online yang terintegrasi dengan Payment Gateway",
-        "Mengembangkan Website Akademik fungsional yang mengotomatisasi proses input data siswa",
-        "Memelihara infrastruktur TI dan melakukan troubleshooting jaringan laboratorium"
+        "Built and implemented an integrated Online PPDB System with Payment Gateway integration",
+        "Developed a functional Academic Website that automates student data input processes",
+        "Maintained IT infrastructure and performed laboratory network troubleshooting"
       ]
     },
     {
-      "company": "Admin Operasional & Stockist",
-      "position": "Agen Milagros Pondok Kelapa",
+      "company": "Operational Admin & Stockist",
+      "position": "Agent at Milagros Pondok Kelapa",
       "startDate": "Feb 2021",
-      "endDate": "Des 2024",
+      "endDate": "Dec 2024",
       "desc": [
-        "Menyusun laporan penjualan harian & bulanan dengan tingkat akurasi data stok 100%",
-        "Mengelola inventaris dan sirkulasi logistik dengan volume hingga 60 dus/bulan",
-        "Memproses lebih dari 20 pesanan pelanggan per minggu secara efisien"
+        "Compiled daily & monthly sales reports with 100% stock data accuracy",
+        "Managed inventory and logistics circulation with volume up to 60 boxes/month",
+        "Processed over 20 customer orders per week efficiently"
       ]
     }
   ],
   "educations": [
     {
       "institute": "Universitas Bina Sarana Informatika - Jakarta",
-      "degree": "S1 Teknologi Informasi (Fakultas Teknik dan Informatika)",
-      "startDate": "Agu 2021",
-      "endDate": "Des 2025",
+      "degree": "Bachelor of Information Technology (Faculty of Engineering & Informatics)",
+      "startDate": "Aug 2021",
+      "endDate": "Dec 2025",
       "desc": [
-        "Skripsi: Pengembangan Sistem Informasi PPDB Terpadu Berbasis Web pada SMKS Jakarta 1 Pondok Kopi Jakarta Timur",
-        "Publikasi Jurnal: Developing an Efficient PPDB System Integrating Payment Gateway and Secure Exams"
+        "Thesis: Development of an Integrated Web-Based PPDB Information System at SMKS Jakarta 1 Pondok Kopi, East Jakarta",
+        "Journal Publication: Developing an Efficient PPDB System Integrating Payment Gateway and Secure Exams"
+      ]
+    },
+    {
+      "institute": "SMKS Jakarta 1 Pondok Kopi - East Jakarta",
+      "degree": "Software Engineering (Rekayasa Perangkat Lunak)",
+      "startDate": "Jul 2018",
+      "endDate": "Jun 2021",
+      "desc": [
+        "Ranked 1st in class during 12th grade",
+        "Member of OSIS (Student Council)",
+        "Highest score in BNSP certification exam — Basic Coding & Database Management (2021-2024)"
       ]
     }
   ]

@@ -4,15 +4,16 @@ import { useInView } from 'react-intersection-observer';
 
 interface ExperienceProps {
   index: number,
-  company: string,
-  position: string,
+  company?: string,
+  position?: string,
   desc: string[],
-  institute: string,
-  degree: string,
-  duration: string,
+  institute?: string,
+  degree?: string,
+  startDate: string,
+  endDate: string,
 }
 
-const Experience = ({ index, company, position, desc, institute, degree, duration }: ExperienceProps) => {
+const Experience = ({ index, company, position, desc, institute, degree, startDate, endDate }: ExperienceProps) => {
 
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -40,7 +41,7 @@ const Experience = ({ index, company, position, desc, institute, degree, duratio
         animate={inView ? 'visible' : 'hidden'}
         className="order-1 rounded-lg w-full ml-3 md:ml-0 bg-white dark:bg-grey-800 md:w-5/12 p-3 md:px-4 md:py-4">
         <h3 className="mb-2 font-medium text-lg md:text-xl">{company || institute}</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">{position || degree} | {duration}</p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">{position || degree} | {startDate} - {endDate}</p>
         <ul className="text-sm text-gray-400 mt-2 ml-4 list-disc">
           {desc && desc.map((d, i) => (
             <li key={i} className='mb-0.5'>{d}</li>

@@ -9,6 +9,7 @@ type project = {
     image: string,
     techstack: string,
     category: string,
+    desc: string,
     links: {
         visit: string,
         code: string,
@@ -29,10 +30,12 @@ type education = {
     degree: string,
     startDate: string,
     endDate: string,
+    desc: string[]
 }
 
 type main = {
     name: string,
+    logo: string,
     titles: string[],
     heroImage: string,
     shortDesc: string,

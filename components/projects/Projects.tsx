@@ -12,10 +12,8 @@ const Projects = ({ projectsData }: Props) => {
 
     const [projects, setProjects] = useState([...projectsData].reverse() as project[])
 
-    // const categories = ['All', ...Array.from(new Set(projects.map((s) => s.category)))]
     const categories = [...Array.from(new Set(projects.map((s) => s.category)))]
 
-    // const [category, setCategory] = useState(categories[0] || "All")
     const [category, setCategory] = useState(categories[0])
 
     const [filteredProjects, setFilteredProjects] = useState(projects as project[])
@@ -24,7 +22,6 @@ const Projects = ({ projectsData }: Props) => {
     const filterProjects = (cat: string) => {
         setViewAll(false)
         setCategory(cat)
-        // cat === "All" ? setFilteredProjects(projects) :
         setFilteredProjects(projects.filter((p: project) => p.category.toLowerCase() === cat.toLowerCase()));
     }
 
@@ -54,7 +51,7 @@ const Projects = ({ projectsData }: Props) => {
 
             {filteredProjects.length > 6
                 &&
-                <ViewAll scrollTo='projects' title={viewAll ? 'Okay, I got it' : 'View All'} handleClick={() => setViewAll(!viewAll)} />
+                <ViewAll scrollTo='projects' title={viewAll ? "Okay, I got it" : "View All"} handleClick={() => setViewAll(!viewAll)} />
             }
         </SectionWrapper>
     )
@@ -62,25 +59,24 @@ const Projects = ({ projectsData }: Props) => {
 
 export default Projects
 
-type MouseEventHandler = (event: React.MouseEvent<HTMLButtonElement>) => void;
+type MouseEventHandler = (event?: React.MouseEvent<HTMLButtonElement>) => void;
 
-export const ViewAll = ({ handleClick, title, scrollTo }: { handleClick: MouseEventHandler, title: string, scrollTo: string }) => {
+export const ViewAll = ({ handleClick, title, scrollTo, animate = false }: { handleClick: MouseEventHandler, title: string, scrollTo: string, animate?: boolean }) => {
     return (
         <>
             <div className="bg-white dark:bg-grey-900 w-4/5 mx-auto blur-xl z-20 -translate-y-14 h-16"></div>
             <div className="text-center -translate-y-24">
-                {title === 'View All' ?
-                    <button onClick={handleClick} className={`bg-violet-600 text-white px-4 ${title === 'View All' ? 'animate-bounce' : 'animate-none'} py-1.5 rounded-md hover:shadow-xl transition-all`}>
+                {title === "View All" ?
+                    <button onClick={handleClick} className={`bg-violet-600 text-white px-4 ${animate ? 'animate-bounce' : 'animate-none'} py-1.5 rounded-md hover:shadow-xl transition-all`}>
                         {title}
                     </button>
                     :
                     <Link
                         to={scrollTo}
-                        className={`bg-violet-600 text-white px-4 ${title === 'View All' ? 'animate-bounce' : 'animate-none'} cursor-pointer py-1.5 rounded-md hover:shadow-xl transition-all`}
+                        className={`bg-violet-600 text-white px-4 ${animate ? 'animate-bounce' : 'animate-none'} cursor-pointer py-1.5 rounded-md hover:shadow-xl transition-all`}
                         offset={-60}
                         smooth={true}
                         duration={500}
-                        // @ts-ignore
                         onClick={() => handleClick()}
                     >{title}</Link>
                 }

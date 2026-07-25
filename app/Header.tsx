@@ -4,24 +4,27 @@ import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { Link as ScrollLink } from 'react-scroll'
 import { FiSun, FiMoon } from 'react-icons/fi'
-
 import { CgClose, CgMenuRight } from 'react-icons/cg'
 
 export default function Header({ logo }: { logo: string }) {
 
     const [navCollapse, setNavCollapse] = useState(true)
     const [scroll, setScroll] = useState(false)
+    const [mounted, setMounted] = useState(false)
     const { theme, setTheme } = useTheme()
+
+    useEffect(() => setMounted(true), [])
 
     useEffect(() => {
         const updateScroll = () => {
             window.scrollY >= 90 ? setScroll(true) : setScroll(false)
         }
         window.addEventListener('scroll', updateScroll)
+        return () => window.removeEventListener('scroll', updateScroll)
     }, [])
 
 
-    const navs = ['home', 'about', 'projects', 'experience', 'contact']
+    const navs = ['Home', 'About', 'Projects', 'Experience', 'Contact']
 
     return (
         <header className={`backdrop-filter backdrop-blur-lg ${scroll ? 'border-b bg-white bg-opacity-40' : 'border-b-0'} dark:bg-grey-900 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 min-w-full flex flex-col fixed`}>
@@ -36,7 +39,7 @@ export default function Header({ logo }: { logo: string }) {
                         <li key={i}>
                             <ScrollLink
                                 className='hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer'
-                                to={e}
+                                to={e.toLowerCase()}
                                 offset={-60}
                                 smooth={true}
                                 duration={500}
@@ -49,7 +52,7 @@ export default function Header({ logo }: { logo: string }) {
                     <span
                         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                         className='hover:bg-gray-100 hover:dark:bg-violet-700 p-1.5 rounded-full cursor-pointer transition-colors'>
-                        {theme === 'dark' ? <FiSun /> : <FiMoon />}
+                        {mounted && (theme === 'dark' ? <FiSun /> : <FiMoon />)}
                     </span>
                 </ul>
             </nav>
@@ -60,7 +63,7 @@ export default function Header({ logo }: { logo: string }) {
                     <span
                         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                         className='bg-gray-100 dark:bg-violet-700 p-1.5 rounded-full cursor-pointer transition-colors'>
-                        {theme === 'dark' ? <FiSun /> : <FiMoon />}
+                        {mounted && (theme === 'dark' ? <FiSun /> : <FiMoon />)}
                     </span>
                     <CgMenuRight size={20} onClick={() => setNavCollapse(false)} />
                 </div>
@@ -76,7 +79,7 @@ export default function Header({ logo }: { logo: string }) {
                         <ScrollLink
                             key={e}
                             className='hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer'
-                            to={e}
+                            to={e.toLowerCase()}
                             offset={-60}
                             smooth={true}
                             duration={500}
