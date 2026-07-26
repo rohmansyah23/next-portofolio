@@ -249,7 +249,7 @@
       "name": "Red Line Guardian AI",
       "techstack": "Python, Pygame, OpenCV, MSS, PID Control, Pynput, Tkinter",
       "category": "Python",
-      "image": "https://img.icons8.com/color/144/000000/python.png",
+      "image": "/projects/red-line-bot-game.png",
       "desc": "A complete ecosystem consisting of a high-reflex reaction game (Pygame) and an advanced Computer Vision Agent (OpenCV + PID Control) designed to simulate professional-level human gameplay.",
       "links": {
         "code": "https://github.com/rohmansyah23/red-line-guardian-ai",
