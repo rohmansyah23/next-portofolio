@@ -285,7 +285,7 @@
       "name": "Taskbar Navigator",
       "techstack": "Python, Windows Automation",
       "category": "Python",
-      "image": "https://img.icons8.com/color/144/000000/python.png",
+      "image": "/projects/taskbar-navigation.png",
       "desc": "A lightweight and smart Windows automation tool that re-maps taskbar navigation to the Alt key. Ensures applications switch focus and pop to the foreground, solving the minimized window issue.",
       "links": {
         "code": "https://github.com/rohmansyah23/taskbar-navigator",
