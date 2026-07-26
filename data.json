@@ -273,7 +273,7 @@
       "name": "Eat Scroll",
       "techstack": "Dart, Kotlin",
       "category": "Mobile",
-      "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "image": "/projects/eat-scroll.png",
       "desc": "Hands-free auto scrolling for Android. Read Threads, comics, articles, Reddit, and more while eating, commuting, or using one hand.",
       "links": {
         "code": "https://github.com/rohmansyah23/eat-scroll",
