@@ -225,7 +225,7 @@
       "name": "QC Mobile App",
       "techstack": "Flutter, Dart, Riverpod, Supabase",
       "category": "Mobile",
-      "image": "https://img.icons8.com/color/144/000000/flutter.png",
+      "image": "/projects/oc.png",
       "desc": "O&C Financial - a full-stack personal finance tracking app for couples. Flat-minimalist Scandinavian-style UI with real-time Supabase integration and Riverpod state management.",
       "links": {
         "code": "https://github.com/rohmansyah23/QC-Mobile-App",
