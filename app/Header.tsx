@@ -51,7 +51,7 @@ export default function Header({ logo }: { logo: string }) {
                     ))}
                     <span
                         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                        className='hover:bg-gray-100 hover:dark:bg-violet-700 p-1.5 rounded-full cursor-pointer transition-colors'>
+                        className='text-gray-700 dark:text-white hover:bg-gray-100 hover:dark:bg-violet-700 p-1.5 rounded-full cursor-pointer select-none transition-colors'>
                         {mounted && (theme === 'dark' ? <FiSun /> : <FiMoon />)}
                     </span>
                 </ul>
@@ -62,7 +62,7 @@ export default function Header({ logo }: { logo: string }) {
                 <div className='flex items-center gap-4'>
                     <span
                         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                        className='bg-gray-100 dark:bg-violet-700 p-1.5 rounded-full cursor-pointer transition-colors'>
+                        className='text-gray-700 dark:text-white bg-gray-100 dark:bg-violet-700 p-1.5 rounded-full cursor-pointer select-none transition-colors'>
                         {mounted && (theme === 'dark' ? <FiSun /> : <FiMoon />)}
                     </span>
                     <CgMenuRight size={20} onClick={() => setNavCollapse(false)} />

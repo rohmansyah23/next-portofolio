@@ -23,7 +23,7 @@ export default function Footer({ socials, name }: { socials: social[], name: str
                     </Link>
                     <p className="text-sm">X</p>
                     <Link href={'https://vercel.com'} target="_blank">
-                        <Image alt="Tailwind CSS" width={52} height={52} src="/vercel.svg" className="invert-0 dark:invert opacity-80 hover:opacity-100 transition-opacity" />
+                        <Image alt="Vercel" width={58} height={58} src="/vercel.svg" className="invert-0 dark:invert opacity-80 hover:opacity-100 transition-opacity" />
                     </Link>
                 </div>
 
