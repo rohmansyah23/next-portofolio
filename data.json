@@ -234,10 +234,10 @@
       }
     },
     {
-      "name": "Flutter Auto-Refresh Bot",
+      "name": "Auto-Refresh Bot",
       "techstack": "Flutter, Dart, flutter_inappwebview",
       "category": "Mobile",
-      "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "image": "/projects/auto-refresh.png",
       "desc": "A mini browser app built with Flutter featuring a Floating Menu UI. Equipped with Cloudflare Anti-Bot bypass, Multi-Popup Auth, Desktop Mode, and dynamic-scale zoom using flutter_inappwebview.",
       "links": {
         "code": "https://github.com/rohmansyah23/flutter-auto-refresh-bot",
