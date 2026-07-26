@@ -89,6 +89,11 @@
       "category": "Frontend"
     },
     {
+      "name": "Next.js",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      "category": "Frontend"
+    },
+    {
       "name": "PHP",
       "image": "https://img.icons8.com/color/144/000000/php.png",
       "category": "Backend"
@@ -114,74 +119,69 @@
       "category": "Backend"
     },
     {
-      "name": "Next.js",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      "category": "Frontend"
-    },
-    {
-      "name": "Flutter",
-      "image": "https://img.icons8.com/color/144/000000/flutter.png",
-      "category": "Others"
-    },
-    {
-      "name": "Dart",
-      "image": "https://img.icons8.com/color/144/000000/dart.png",
-      "category": "Others"
-    },
-    {
-      "name": "Kotlin",
-      "image": "https://img.icons8.com/color/144/000000/kotlin.png",
-      "category": "Others"
+      "name": "Laravel",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+      "category": "Backend"
     },
     {
       "name": "SQL",
       "image": "https://img.icons8.com/color/144/000000/sql.png",
-      "category": "Others"
+      "category": "Backend"
     },
     {
       "name": "PostgreSQL",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-      "category": "Others"
-    },
-    {
-      "name": "Supabase",
-      "image": "https://img.icons8.com/color/144/000000/supabase.png",
-      "category": "Others"
-    },
-    {
-      "name": "Prisma",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
-      "category": "Others"
-    },
-    {
-      "name": "Git",
-      "image": "https://img.icons8.com/color/144/000000/git.png",
-      "category": "Others"
+      "category": "Backend"
     },
     {
       "name": "MySQL",
       "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
-      "category": "Others"
+      "category": "Backend"
+    },
+    {
+      "name": "Supabase",
+      "image": "https://img.icons8.com/color/144/000000/supabase.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Prisma",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
+      "category": "Backend"
     },
     {
       "name": "Firebase",
       "image": "https://img.icons8.com/color/144/000000/firebase.png",
-      "category": "Others"
+      "category": "Backend"
     },
     {
-      "name": "Vercel",
-      "image": "https://res.cloudinary.com/lifecodes/image/upload/v1677508669/Portfolio/gd1ferzh1vbopo15yysy.svg",
-      "category": "Others"
+      "name": "Flutter",
+      "image": "https://img.icons8.com/color/144/000000/flutter.png",
+      "category": "Mobile"
+    },
+    {
+      "name": "Dart",
+      "image": "https://img.icons8.com/color/144/000000/dart.png",
+      "category": "Mobile"
+    },
+    {
+      "name": "Kotlin",
+      "image": "https://img.icons8.com/color/144/000000/kotlin.png",
+      "category": "Mobile"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/color/144/000000/git.png",
+      "category": "Tools"
     },
     {
       "name": "GitHub",
       "image": "https://img.icons8.com/material-outlined/96/000000/github.png",
-      "category": "Others"
+      "category": "Tools"
     },
     {
-      "name": "Laravel",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
-      "category": "Others"
+      "name": "Vercel",
+      "image": "https://res.cloudinary.com/lifecodes/image/upload/v1677508669/Portfolio/gd1ferzh1vbopo15yysy.svg",
+      "category": "Tools"
     }
   ],
   "projects": [

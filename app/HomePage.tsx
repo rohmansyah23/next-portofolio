@@ -10,6 +10,7 @@ import Contact from "@/components/Contact";
 import CallToAction from "@/components/CallToAction";
 import Header from "./Header";
 import Footer from "./Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 interface Props {
     data: data,
@@ -28,6 +29,7 @@ const HomePage = ({ data }: Props) => {
             <Contact />
             <CallToAction />
             <Footer socials={data.socials} name={data.main.name} />
+            <ScrollToTop />
         </>
     )
 }
