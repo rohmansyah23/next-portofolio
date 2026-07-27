@@ -198,18 +198,6 @@
       }
     },
     {
-      "name": "AI Go - Warehouse Chatbot",
-      "techstack": "Go, Gin Gonic, MySQL, GORM, Google Gemini API, Tailwind CSS, jQuery",
-      "category": "Web",
-      "image": "/projects/ai-go.png",
-      "desc": "Warehouse assistant chatbot built with Go (Gin Gonic) and integrated with Google Gemini API. Two modes: rule-based (Chatms) and AI-powered (Chatga) with Function Calling.",
-      "links": {
-        "code": "https://github.com/rohmansyah23/ai-go",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
       "name": "PawsCare Portal",
       "techstack": "CodeIgniter 3, Bootstrap 4, MySQL, Ion Auth, jQuery DataTables, SweetAlert2",
       "category": "Web",
@@ -253,6 +241,18 @@
       "desc": "A complete ecosystem consisting of a high-reflex reaction game (Pygame) and an advanced Computer Vision Agent (OpenCV + PID Control) designed to simulate professional-level human gameplay.",
       "links": {
         "code": "https://github.com/rohmansyah23/red-line-guardian-ai",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "AI Go - Warehouse Chatbot",
+      "techstack": "Go, Gin Gonic, MySQL, GORM, Google Gemini API, Tailwind CSS, jQuery",
+      "category": "Web",
+      "image": "/projects/ai-go.png",
+      "desc": "Warehouse assistant chatbot built with Go (Gin Gonic) and integrated with Google Gemini API. Two modes: rule-based (Chatms) and AI-powered (Chatga) with Function Calling.",
+      "links": {
+        "code": "https://github.com/rohmansyah23/ai-go",
         "video": "",
         "visit": ""
       }
