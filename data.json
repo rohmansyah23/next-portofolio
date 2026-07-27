@@ -188,7 +188,7 @@
     {
       "name": "CroCode Marketplace",
       "techstack": "HTML5, CSS3, JavaScript, Bootstrap 5, AOS, GLightbox",
-      "category": "HTML/CSS",
+      "category": "Web",
       "image": "/projects/crocode.png",
       "desc": "A modern digital platform for selling high-quality website and application source code. Serves as both a product catalog and primary transaction gateway.",
       "links": {
@@ -200,7 +200,7 @@
     {
       "name": "AI Go - Warehouse Chatbot",
       "techstack": "Go, Gin Gonic, MySQL, GORM, Google Gemini API, Tailwind CSS, jQuery",
-      "category": "Go",
+      "category": "Web",
       "image": "/projects/ai-go.png",
       "desc": "Warehouse assistant chatbot built with Go (Gin Gonic) and integrated with Google Gemini API. Two modes: rule-based (Chatms) and AI-powered (Chatga) with Function Calling.",
       "links": {
@@ -212,7 +212,7 @@
     {
       "name": "PawsCare Portal",
       "techstack": "CodeIgniter 3, Bootstrap 4, MySQL, Ion Auth, jQuery DataTables, SweetAlert2",
-      "category": "PHP",
+      "category": "Web",
       "image": "/projects/pawscare.png",
       "desc": "Pet Health Portal - a health information portal for pets and dogs featuring admin CMS, gallery, and search functionality. Built with CodeIgniter 3 and Ion Auth.",
       "links": {
@@ -248,7 +248,7 @@
     {
       "name": "Red Line Guardian AI",
       "techstack": "Python, Pygame, OpenCV, MSS, PID Control, Pynput, Tkinter",
-      "category": "Python",
+      "category": "Desktop/Tools",
       "image": "/projects/red-line-bot-game.png",
       "desc": "A complete ecosystem consisting of a high-reflex reaction game (Pygame) and an advanced Computer Vision Agent (OpenCV + PID Control) designed to simulate professional-level human gameplay.",
       "links": {
@@ -260,7 +260,7 @@
     {
       "name": "Pustaka Booking UBSI",
       "techstack": "PHP, CodeIgniter 3, MySQL",
-      "category": "PHP",
+      "category": "Web",
       "image": "/projects/pustaka-booking.png",
       "desc": "Library Booking System - a web-based library book borrowing and returning application built with CodeIgniter 3, developed for a Web Programming course at BSI.",
       "links": {
@@ -284,7 +284,7 @@
     {
       "name": "Taskbar Navigator",
       "techstack": "Python, Windows Automation",
-      "category": "Python",
+      "category": "Desktop/Tools",
       "image": "/projects/taskbar-navigation.png",
       "desc": "A lightweight and smart Windows automation tool that re-maps taskbar navigation to the Alt key. Ensures applications switch focus and pop to the foreground, solving the minimized window issue.",
       "links": {
@@ -296,7 +296,7 @@
     {
       "name": "Milagros Web",
       "techstack": "Next.js 16, React 19, TypeScript, Tailwind CSS, Prisma, PostgreSQL, Zustand, Cloudinary, shadcn/ui",
-      "category": "TypeScript",
+      "category": "Web",
       "image": "/projects/milagros-web.png",
       "desc": "A modern website for an authorized Milagros agent featuring a landing page, interactive product catalog, and admin panel for stock and media management. Uses Prisma ORM and shadcn/ui.",
       "links": {
@@ -308,7 +308,7 @@
     {
       "name": "Catering Mama Akbar",
       "techstack": "Next.js 16, React 19, TypeScript, Tailwind CSS, Neon Postgres, Cloudinary, shadcn/ui, JWT, bcryptjs",
-      "category": "TypeScript",
+      "category": "Web",
       "image": "/projects/catering-mama-akbar.png",
       "desc": "Modern Catering & Menu Management System for Catering Mama Akbar Pondok Kelapa. Integrates an interactive menu catalog with a JWT-authenticated back-office admin panel.",
       "links": {
