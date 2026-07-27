@@ -261,7 +261,7 @@
       "name": "Pustaka Booking UBSI",
       "techstack": "PHP, CodeIgniter 3, MySQL",
       "category": "PHP",
-      "image": "https://img.icons8.com/color/144/000000/sql.png",
+      "image": "/projects/pustaka-booking.png",
       "desc": "Library Booking System - a web-based library book borrowing and returning application built with CodeIgniter 3, developed for a Web Programming course at BSI.",
       "links": {
         "code": "https://github.com/rohmansyah23/pustaka-booking-ubsi",
