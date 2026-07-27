@@ -201,7 +201,7 @@
       "name": "AI Go - Warehouse Chatbot",
       "techstack": "Go, Gin Gonic, MySQL, GORM, Google Gemini API, Tailwind CSS, jQuery",
       "category": "Go",
-      "image": "https://img.icons8.com/color/144/000000/golang.png",
+      "image": "/projects/ai-go.png",
       "desc": "Warehouse assistant chatbot built with Go (Gin Gonic) and integrated with Google Gemini API. Two modes: rule-based (Chatms) and AI-powered (Chatga) with Function Calling.",
       "links": {
         "code": "https://github.com/rohmansyah23/ai-go",
