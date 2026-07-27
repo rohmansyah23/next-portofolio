@@ -213,7 +213,7 @@
       "name": "PawsCare Portal",
       "techstack": "CodeIgniter 3, Bootstrap 4, MySQL, Ion Auth, jQuery DataTables, SweetAlert2",
       "category": "PHP",
-      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg",
+      "image": "/projects/pawscare.png",
       "desc": "Pet Health Portal - a health information portal for pets and dogs featuring admin CMS, gallery, and search functionality. Built with CodeIgniter 3 and Ion Auth.",
       "links": {
         "code": "https://github.com/rohmansyah23/portal-paswcare",
