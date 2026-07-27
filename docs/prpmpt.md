@@ -221,9 +221,9 @@ OUTPUT
 Produce a high-resolution GitHub README hero banner.
 
 Aspect ratio:
-16:10
+16:9
 
 Resolution:
-At least 1920 x 1200.
+At least 1920 × 1080.
 
 The result should feel like a real software landing page hero section rather than AI-generated concept art.
