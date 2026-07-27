@@ -246,18 +246,6 @@
       }
     },
     {
-      "name": "AI Go - Warehouse Chatbot",
-      "techstack": "Go, Gin Gonic, MySQL, GORM, Google Gemini API, Tailwind CSS, jQuery",
-      "category": "Web",
-      "image": "/projects/ai-go.png",
-      "desc": "Warehouse assistant chatbot built with Go (Gin Gonic) and integrated with Google Gemini API. Two modes: rule-based (Chatms) and AI-powered (Chatga) with Function Calling.",
-      "links": {
-        "code": "https://github.com/rohmansyah23/ai-go",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
       "name": "Pustaka Booking UBSI",
       "techstack": "PHP, CodeIgniter 3, MySQL",
       "category": "Web",
@@ -265,6 +253,18 @@
       "desc": "Library Booking System - a web-based library book borrowing and returning application built with CodeIgniter 3, developed for a Web Programming course at BSI.",
       "links": {
         "code": "https://github.com/rohmansyah23/pustaka-booking-ubsi",
+        "video": "",
+        "visit": ""
+      }
+    },
+    {
+      "name": "AI Go - Warehouse Chatbot",
+      "techstack": "Go, Gin Gonic, MySQL, GORM, Google Gemini API, Tailwind CSS, jQuery",
+      "category": "Web",
+      "image": "/projects/ai-go.png",
+      "desc": "Warehouse assistant chatbot built with Go (Gin Gonic) and integrated with Google Gemini API. Two modes: rule-based (Chatms) and AI-powered (Chatga) with Function Calling.",
+      "links": {
+        "code": "https://github.com/rohmansyah23/ai-go",
         "video": "",
         "visit": ""
       }
@@ -294,18 +294,6 @@
       }
     },
     {
-      "name": "Milagros Web",
-      "techstack": "Next.js 16, React 19, TypeScript, Tailwind CSS, Prisma, PostgreSQL, Zustand, Cloudinary, shadcn/ui",
-      "category": "Web",
-      "image": "/projects/milagros-web.png",
-      "desc": "A modern website for an authorized Milagros agent featuring a landing page, interactive product catalog, and admin panel for stock and media management. Uses Prisma ORM and shadcn/ui.",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": "https://milagros-web.vercel.app/"
-      }
-    },
-    {
       "name": "Catering Mama Akbar",
       "techstack": "Next.js 16, React 19, TypeScript, Tailwind CSS, Neon Postgres, Cloudinary, shadcn/ui, JWT, bcryptjs",
       "category": "Web",
@@ -315,6 +303,18 @@
         "code": "",
         "video": "",
         "visit": "https://catering-mama-akbar.vercel.app/"
+      }
+    },
+    {
+      "name": "Milagros Web",
+      "techstack": "Next.js 16, React 19, TypeScript, Tailwind CSS, Prisma, PostgreSQL, Zustand, Cloudinary, shadcn/ui",
+      "category": "Web",
+      "image": "/projects/milagros-web.png",
+      "desc": "A modern website for an authorized Milagros agent featuring a landing page, interactive product catalog, and admin panel for stock and media management. Uses Prisma ORM and shadcn/ui.",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": "https://milagros-web.vercel.app/"
       }
     },
     {
