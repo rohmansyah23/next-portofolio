@@ -19,7 +19,7 @@ interface Props {
 const HomePage = ({ data }: Props) => {
     return (
         <>
-            <Header logo={data.main.logo} />
+            <Header />
             <Hero mainData={data.main} />
             <Socials socials={data.socials} />
             <About aboutData={data.about} name={data.main.name} />
