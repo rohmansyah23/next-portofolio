@@ -73,6 +73,21 @@ Edit `data.json` in the root directory to update:
 - Projects with screenshots (save to `public/projects/`)
 - Work experience and education
 
+## Contributors
+
+Thanks to everyone who has contributed to this project:
+
+<!--
+  Contributors are added via Pull Request.
+  Add your GitHub username below using the badge format.
+-->
+
+<a href="https://github.com/syahr642">
+  <img src="https://img.shields.io/badge/syahr642-Contributor-6D28D9?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+Want to contribute? Fork the repo, make your changes, and open a Pull Request.
+
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-rohman-syah-13a0873a8/)
