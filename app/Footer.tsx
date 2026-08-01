@@ -32,7 +32,7 @@ export default function Footer({ socials, name }: { socials: social[], name: str
                     {socials.map((s: social) => {
                         const Icon = iconMap[s.icon] || iconMap.FaQuestionCircle;
                         return (
-                            <Link href={s.link} target="_blank" rel="noreferrer" key={s.icon} className="grid place-items-center p-3 rounded-full text-lg hover:bg-gray-100 hover:dark:bg-grey-900 transition-colors">
+                            <Link href={s.link} target="_blank" rel="noreferrer" key={s.icon} aria-label={s.icon} className="grid place-items-center p-3 rounded-full text-lg hover:bg-gray-100 hover:dark:bg-grey-900 transition-colors">
                                 <Icon />
                             </Link>
                         )
