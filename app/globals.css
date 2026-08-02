@@ -25,6 +25,8 @@ html {
   background-color: #6565656a;
 }
 
-.scroll-hide::-webkit-scrollbar {
-  display: none;
+@layer utilities {
+  .scroll-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
