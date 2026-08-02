@@ -63,7 +63,7 @@ type MouseEventHandler = (event?: React.MouseEvent<HTMLButtonElement>) => void;
 
 export const ViewAll = ({ handleClick, title, scrollTo, animate = false }: { handleClick: MouseEventHandler, title: string, scrollTo: string, animate?: boolean }) => {
     return (
-        <>
+        <div className="relative h-0">
             <div className="bg-white dark:bg-grey-900 w-4/5 mx-auto blur-xl z-20 -translate-y-14 h-16"></div>
             <div className="text-center -translate-y-24">
                 {title === "View All" ?
@@ -81,6 +81,6 @@ export const ViewAll = ({ handleClick, title, scrollTo, animate = false }: { han
                     >{title}</Link>
                 }
             </div>
-        </>
+        </div>
     )
 }
