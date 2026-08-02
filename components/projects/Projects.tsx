@@ -31,7 +31,7 @@ const Projects = ({ projectsData }: Props) => {
     }, [])
 
     return (
-        <SectionWrapper id="projects" className="mx-4 md:mx-0 min-h-screen">
+        <SectionWrapper id="projects" className="mt-16 md:mt-24 mx-4 md:mx-0">
             <h2 className="text-4xl text-center">Projects</h2>
 
             <div className="overflow-x-auto scroll-hide md:w-full max-w-screen-sm mx-auto mt-6 flex justify-between items-center gap-2 md:gap-3 bg-white dark:bg-grey-800 p-2 rounded-md">
@@ -42,7 +42,7 @@ const Projects = ({ projectsData }: Props) => {
                 ))}
             </div>
 
-            <div className="md:mx-6 lg:mx-auto lg:w-5/6 2xl:w-3/4 my-4 md:my-8 mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-10">
+            <div className="md:mx-6 lg:mx-auto lg:w-5/6 2xl:w-3/4 mt-4 md:mt-8 mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-10">
                 {filteredProjects.slice(0, viewAll ? filteredProjects.length : 6).map((p: project, i: number) => (
                     <ProjectCard key={i} {...p} />
                 ))}
@@ -74,7 +74,7 @@ export const ViewAll = ({ handleClick, title, scrollTo, animate = false }: { han
                     <Link
                         to={scrollTo}
                         className={`bg-violet-600 text-white px-4 ${animate ? 'animate-bounce' : 'animate-none'} cursor-pointer py-1.5 rounded-md hover:shadow-xl transition-all`}
-                        offset={-60}
+                        offset={-96}
                         smooth={true}
                         duration={500}
                         onClick={() => handleClick()}

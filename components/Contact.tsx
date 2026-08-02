@@ -64,7 +64,7 @@ const Contact = () => {
     };
 
     return (
-        <SectionWrapper id="contact" className="mb-16 mx-4 lg:mx-0">
+        <SectionWrapper id="contact" className="mt-16 md:mt-24 mx-4 lg:mx-0">
             <h2 className="text-center text-4xl">Contact Me</h2>
             <ToastContainer />
 

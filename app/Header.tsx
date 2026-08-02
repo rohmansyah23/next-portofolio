@@ -41,7 +41,7 @@ export default function Header() {
                             <ScrollLink
                                 className='hover:text-violet-700 hover:dark:text-violet-500 transition-colors capitalize cursor-pointer'
                                 to={e.toLowerCase()}
-                                offset={-60}
+                                offset={-96}
                                 smooth={true}
                                 duration={500}
                                 isDynamic={true}
@@ -81,7 +81,7 @@ export default function Header() {
                             key={e}
                             className='hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer'
                             to={e.toLowerCase()}
-                            offset={-60}
+                            offset={-96}
                             smooth={true}
                             duration={500}
                             isDynamic={true}
@@ -92,7 +92,7 @@ export default function Header() {
                     ))}
                     <ScrollLink
                         to='contact'
-                        offset={-60}
+                        offset={-96}
                         smooth={true}
                         duration={500}
                         onClick={() => setNavCollapse(true)}

@@ -18,7 +18,7 @@ const Experiences = ({ experienceData, educationData }: Props) => {
     const [educations, setEducations] = useState([...educationData] as education[])
 
     return (
-        <SectionWrapper id="experience" className="min-h-screen">
+        <SectionWrapper id="experience" className="mt-16 md:mt-24">
             <h2 className="text-4xl text-center">Experience</h2>
 
             <div className="w-fit mx-auto mt-6 p-2 bg-white dark:bg-grey-800 rounded-md flex gap-2 items-center">
@@ -29,7 +29,7 @@ const Experiences = ({ experienceData, educationData }: Props) => {
             </div>
 
             <div className="lg:container sm:mx-4 lg:mx-auto lg:w-5/6 2xl:w-3/4">
-                <div className="relative wrap overflow-hidden p-4 md:py-10 md:px-0">
+                <div className="relative wrap overflow-hidden pt-4 pb-4 md:pt-10 md:pb-6 md:px-0">
                     <div className="left-6 md:left-1/2 absolute border-gray-300 dark:border-gray-600 h-full border"></div>
 
                     {viewAll ?
