@@ -2,12 +2,12 @@
   "main": {
     "name": "Muhammad Rohman Syah",
     "logo": "SyahrWorks",
-    "shortDesc": "BNSP-certified Fullstack Developer building web & mobile applications with Next.js, Flutter, PHP & Go. Focused on clean code and solving real user problems.",
+    "shortDesc": "Building reliable web & mobile applications that deliver great user experiences, with a strong focus on performance, scalability, and clean code.",
     "titles": [
-      "Fullstack Web Developer",
+      "Full-Stack Developer",
       "Next.js & TypeScript",
-      "Flutter Development",
-      "Go & Python Backend"
+      "Flutter Developer",
+      "Go Backend"
     ],
     "heroImage": "/profile-me.png",
     "techStackImages": [
@@ -19,9 +19,9 @@
   },
   "about": {
     "aboutImage": "/about-me.png",
-    "aboutImageCaption": "< Fullstack Developer />",
-    "title": "Fullstack Web Developer | BNSP Certified",
-    "about": "Fullstack Developer with BNSP certification 🏆 (Program Analyst & Network Administrator) and hands-on experience building web & mobile applications. Built 12+ projects 🚀 spanning Next.js dashboards, Flutter mobile apps, CodeIgniter systems, and Go backends. Currently freelancing while completing a Bachelor of IT 🎓 at Universitas Bina Sarana Informatika, with a published thesis on integrated PPDB systems with payment gateway integration.",
+    "aboutImageCaption": "< Full-Stack Developer />",
+    "title": "Full-Stack Developer",
+    "about": "I'm Rohman, a Full-Stack Developer from Indonesia with hands-on experience building web and mobile applications. Across 12+ projects, I've developed business dashboards, information systems, mobile applications, and backend services. I'm currently working as a freelance developer while completing my Bachelor's degree in Information Technology at Universitas Bina Sarana Informatika. I've earned three BNSP certifications in Software Engineering (KKNI Level II), Program Analysis, and Intermediate Network Administration, reflecting my commitment to continuous learning and professional growth.",
     "callUrl": "https://wa.me/628997785724",
     "resumeUrl": "https://drive.google.com/file/d/1p3hgEF94IcqOXCfC6ExF766YTWiLvVwD/view?usp=drive_link"
   },
@@ -332,58 +332,59 @@
   ],
   "experiences": [
     {
-      "company": "Fullstack Web Developer (Freelance)",
-      "position": "Freelance",
+      "company": "Self-Employed",
+      "position": "Freelance Full-Stack Developer",
       "startDate": "Jan 2024",
       "endDate": "Present",
       "desc": [
-        "Manage end-to-end software development lifecycle (SDLC), from system architecture design, coding, to deployment and maintenance",
-        "Customize and modify application features according to client business needs to enhance product functionality value"
+        "Design, develop, deploy, and maintain web and mobile applications throughout the full software development lifecycle (SDLC).",
+        "Build and customize solutions based on client requirements, focusing on performance, scalability, and maintainability."
       ]
     },
     {
-      "company": "IT Support & Teaching Assistant",
-      "position": "Intern",
+      "company": "SMKS Jakarta 1 Pondok Kopi",
+      "position": "IT Support & Teaching Assistant Intern",
       "startDate": "Oct 2024",
       "endDate": "Dec 2024",
       "desc": [
-        "Built and implemented an integrated Online PPDB System with Payment Gateway integration",
-        "Developed a functional Academic Website that automates student data input processes",
-        "Maintained IT infrastructure and performed laboratory network troubleshooting"
+        "Developed and implemented an integrated student admission (PPDB) system with payment gateway integration.",
+        "Built an academic website that streamlined student data management and administrative workflows.",
+        "Maintained laboratory IT infrastructure and provided network troubleshooting and technical support."
       ]
     },
     {
-      "company": "Operational Admin & Stockist",
-      "position": "Agent at Milagros Pondok Kelapa",
+      "company": "Milagros Pondok Kelapa",
+      "position": "Operational Administrator & Stockist",
       "startDate": "Feb 2021",
       "endDate": "Dec 2024",
       "desc": [
-        "Compiled daily & monthly sales reports with 100% stock data accuracy",
-        "Managed inventory and logistics circulation with volume up to 60 boxes/month",
-        "Processed over 20 customer orders per week efficiently"
+        "Prepared daily and monthly sales reports while maintaining 100% inventory accuracy.",
+        "Managed inventory distribution and logistics for up to 60 product boxes per month.",
+        "Processed more than 20 customer orders per week while ensuring operational efficiency."
       ]
     }
   ],
+
   "educations": [
     {
-      "institute": "Universitas Bina Sarana Informatika - Jakarta",
-      "degree": "Bachelor of Information Technology (Faculty of Engineering & Informatics)",
+      "institute": "Universitas Bina Sarana Informatika, Jakarta",
+      "degree": "Bachelor of Information Technology",
       "startDate": "Aug 2021",
       "endDate": "Dec 2025",
       "desc": [
-        "Thesis: Development of an Integrated Web-Based PPDB Information System at SMKS Jakarta 1 Pondok Kopi, East Jakarta",
-        "Journal Publication: Developing an Efficient PPDB System Integrating Payment Gateway and Secure Exams"
+        "Thesis: Development of an Integrated Web-Based Student Admission (PPDB) Information System with Payment Gateway Integration.",
+        "Published research on secure online student admission systems with integrated payment gateway functionality."
       ]
     },
     {
-      "institute": "SMKS Jakarta 1 Pondok Kopi - East Jakarta",
-      "degree": "Software Engineering (Rekayasa Perangkat Lunak)",
+      "institute": "SMKS Jakarta 1 Pondok Kopi, Jakarta",
+      "degree": "Software Engineering",
       "startDate": "Jul 2018",
       "endDate": "Jun 2021",
       "desc": [
-        "Ranked 1st in class during 12th grade",
-        "Member of OSIS (Student Council)",
-        "Highest score in BNSP certification exam — Basic Coding & Database Management (2021-2024)"
+        "Graduated as the top-ranked student in the Software Engineering program.",
+        "Active member of the Student Council (OSIS).",
+        "Achieved the highest score in the BNSP competency assessment for Software Engineering."
       ]
     }
   ]
