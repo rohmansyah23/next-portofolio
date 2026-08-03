@@ -193,7 +193,7 @@
       "desc": "A modern digital platform for selling high-quality website and application source code. Serves as both a product catalog and primary transaction gateway.",
       "links": {
         "code": "https://github.com/rohmansyah23/Crocode",
-        "video": "https://example.com",
+        "video": "",
         "visit": "https://rohmansyah23.github.io/Crocode/"
       }
     },
@@ -319,12 +319,12 @@
     },
     {
       "name": "Shress",
-      "techstack": "Flutter, Dart, Supabase, PLpgSQL",
+      "techstack": "Flutter, Dart, Riverpod, Supabase, PostgreSQL, Firebase",
       "category": "Mobile",
       "image": "/projects/sheress.png",
       "desc": "Multi-tenant financial reporting for Indonesian SMEs. A production-grade, offline-aware Flutter application with real-time financial insights, transaction tracking, debt management, QRIS payments, and multi-business oversight.",
       "links": {
-        "code": "",
+        "code": "https://github.com/rohmansyah23/Shress",
         "video": "",
         "visit": ""
       }
